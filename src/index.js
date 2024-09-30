@@ -5,14 +5,20 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Navbar from './components/Navbar';
 import Introduction from './components/Introduction';
-
-
+import Mystory from './components/Mystory';
+import MyStoryList from './components/MyStoryList';
+import MyProject from './components/MyProject';
+import Footer from './components/Footer';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
     <Navbar/>
     <Introduction/>
+    <Mystory/>
+    <MyStoryList/>
+    <MyProject/>
+    <Footer/>
   </React.StrictMode>
 );
 

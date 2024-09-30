@@ -1,13 +1,14 @@
 // import React from 'react'
 // import '../main.css';
 // import '../main.min.css'
+import author from '../assets/author.png'
 function Introduction() {
     return (
        <>
        <div><div class="container mx-auto">
         <div className="border-b border-grey-lighter py-16 lg:py-20">
     <div>
-      <img src="/assets/img/author.png" className="h-16 w-16" alt="author" />
+      <img src={author} className="h-16 w-16" alt="author" />
     </div>
     <h1
       className="pt-3 font-body text-4xl font-semibold text-primary dark:text-white md:text-5xl lg:text-6xl"
