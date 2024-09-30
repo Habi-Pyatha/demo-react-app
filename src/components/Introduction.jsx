@@ -5,7 +5,7 @@ import author from '../assets/author.png'
 function Introduction() {
     return (
        <>
-       <div><div class="container mx-auto">
+       <div><div className="container mx-auto">
         <div className="border-b border-grey-lighter py-16 lg:py-20">
     <div>
       <img src={author} className="h-16 w-16" alt="author" />

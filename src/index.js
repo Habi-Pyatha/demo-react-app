@@ -9,6 +9,8 @@ import Mystory from './components/Mystory';
 import MyStoryList from './components/MyStoryList';
 import MyProject from './components/MyProject';
 import Footer from './components/Footer';
+import MyPost from './components/Mypost';
+import Post from './components/Post';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -16,7 +18,8 @@ root.render(
     <Navbar/>
     <Introduction/>
     <Mystory/>
-    <MyStoryList/>
+    <Post/>
+    {/* <MyStoryList/> */}
     <MyProject/>
     <Footer/>
   </React.StrictMode>

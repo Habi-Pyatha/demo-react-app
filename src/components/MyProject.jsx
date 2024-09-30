@@ -3,7 +3,7 @@ import iconProject from '../assets/icon-project.png'
 import chevoronRight from '../assets/chevron-right.png'
 function MyProject() {
     return (
-        <div class="container mx-auto">
+        <div className="container mx-auto">
         <div className="pb-16 lg:pb-20">
     <div className="flex items-center pb-6">
       <img src={iconProject} alt="icon story" />

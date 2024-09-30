@@ -2,6 +2,11 @@ import React from 'react'
 import iconstory from "../assets/icon-story.png"
 import longArrowRight from '../assets/long-arrow-right.png'
 function MyStoryList() {
+  const postItem=[
+    {category:"Mango",description:"It is Green.",date:"July 19, 2020",status:"4 min read"},
+    {category:"Apple",description:"It is Red",date:"July 29, 2020",status:"5 min read"},
+    {category:"Banana",description:"Is is yellow",date:"July 16, 2020",status:"6 min read"}
+  ]
     return (
         <>
         <div class="container mx-auto">
@@ -94,6 +99,14 @@ function MyStoryList() {
       </div>
     </div>
   </div>
+  </div>
+
+  <div>
+    {postItem.map((item,index)=>(
+      <postItem category={item.category} description={item.description} date={item.date} status={item.status} />
+    ))}
+      
+    
   </div>
         </>
     )

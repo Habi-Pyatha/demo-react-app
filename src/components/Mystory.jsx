@@ -3,18 +3,18 @@ import myStory from '../assets/icon-story.png'
 function Mystory() {
     return (
         <>
-    <div class="container mx-auto">
-            <div class="border-b border-grey-lighter py-16 lg:py-20">
-    <div class="flex items-center pb-6">
+    <div className="container mx-auto">
+            <div className="border-b border-grey-lighter py-16 lg:py-20">
+    <div className="flex items-center pb-6">
       <img src={myStory} alt="icon story" />
       <h3
-        class="ml-3 font-body text-2xl font-semibold text-primary dark:text-white"
+        className="ml-3 font-body text-2xl font-semibold text-primary dark:text-white"
       >
         My Story
       </h3>
     </div>
     <div>
-      <p class="font-body font-light text-primary dark:text-white">
+      <p className="font-body font-light text-primary dark:text-white">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Nibh mauris cursus
         mattis molestie. Et leo duis ut diam. Sit amet tellus cras adipiscing
